@@ -1,4 +1,6 @@
-package is2.ulpgc.MoneyCalculator;
+package is2.ulpgc.MoneyCalculator.model;
+
+import is2.ulpgc.MoneyCalculator.model.Currency;
 
 import java.time.LocalDate;
 

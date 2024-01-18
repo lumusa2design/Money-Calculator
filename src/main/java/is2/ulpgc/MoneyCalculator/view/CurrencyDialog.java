@@ -1,4 +1,6 @@
-package is2.ulpgc.MoneyCalculator;
+package is2.ulpgc.MoneyCalculator.view;
+
+import is2.ulpgc.MoneyCalculator.model.Currency;
 
 import java.util.List;
 

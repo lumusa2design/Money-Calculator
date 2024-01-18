@@ -1,8 +1,11 @@
-package is2.ulpgc.MoneyCalculator.swing;
+package is2.ulpgc.MoneyCalculator.view;
 
-import is2.ulpgc.MoneyCalculator.*;
+import is2.ulpgc.MoneyCalculator.controller.Command;
+import is2.ulpgc.MoneyCalculator.controller.ExchangeMoneyCommand;
 import is2.ulpgc.MoneyCalculator.fixerws.FixerCurrencyLoader;
 import is2.ulpgc.MoneyCalculator.mocks.MockExchangeRateLoader;
+import is2.ulpgc.MoneyCalculator.model.Currency;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;

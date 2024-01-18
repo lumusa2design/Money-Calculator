@@ -1,6 +1,15 @@
-package is2.ulpgc.MoneyCalculator;
+package is2.ulpgc.MoneyCalculator.controller;
 
-public class ExchangeMoneyCommand implements Command{
+import is2.ulpgc.MoneyCalculator.controller.Command;
+import is2.ulpgc.MoneyCalculator.model.Currency;
+import is2.ulpgc.MoneyCalculator.model.ExchangeRate;
+import is2.ulpgc.MoneyCalculator.model.ExchangeRateLoader;
+import is2.ulpgc.MoneyCalculator.model.Money;
+import is2.ulpgc.MoneyCalculator.view.CurrencyDialog;
+import is2.ulpgc.MoneyCalculator.view.MoneyDialog;
+import is2.ulpgc.MoneyCalculator.view.MoneyDisplay;
+
+public class ExchangeMoneyCommand implements Command {
     private final MoneyDialog moneyDialog;
     private final CurrencyDialog currencyDialog;
     private final ExchangeRateLoader exchangeRateLoader;

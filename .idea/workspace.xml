@@ -4,12 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1e34140-baae-4eb7-b02e-c7b38248f68c" name="Changes" comment="Create Mockups of the project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingCurrencyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingMoneyDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingMoneyDisplay.java" afterDir="false" />
+    <list default="true" id="e1e34140-baae-4eb7-b02e-c7b38248f68c" name="Changes" comment="Create View Part of the MVC architecture, and improving some elements of the example code">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/controller/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/model/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/CurrencyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/view/CurrencyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/CurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/model/CurrencyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/ExchangeMoneyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/controller/ExchangeMoneyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/model/ExchangeRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/ExchangeRateLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/model/ExchangeRateLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/model/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/MoneyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/view/MoneyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/MoneyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/view/MoneyDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/fixerws/FixerCurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/fixerws/FixerCurrencyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/fixerws/FixerExchangeRateLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/fixerws/FixerExchangeRateLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/fixerws/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockCurrencyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockCurrencyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockCurrencyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockCurrencyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockExchangeRateLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockExchangeRateLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockMoneyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockMoneyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockMoneyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/mocks/MockMoneyDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingCurrencyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/view/SwingCurrencyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/view/SwingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingMoneyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/view/SwingMoneyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/swing/SwingMoneyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is2/ulpgc/MoneyCalculator/view/SwingMoneyDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.SwingMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -101,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705598698717</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create View Part of the MVC architecture, and improving some elements of the example code">
+      <option name="closed" value="true" />
+      <created>1705600622832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705600622832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,7 +148,8 @@
     <MESSAGE value="First Commit, creation of the Model of our MVC architercture" />
     <MESSAGE value="Creation of the Controller module of the MVC architecture" />
     <MESSAGE value="Create Mockups of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Mockups of the project" />
+    <MESSAGE value="Create View Part of the MVC architecture, and improving some elements of the example code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create View Part of the MVC architecture, and improving some elements of the example code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

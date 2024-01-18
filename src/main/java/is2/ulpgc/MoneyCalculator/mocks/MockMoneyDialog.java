@@ -1,8 +1,8 @@
 package is2.ulpgc.MoneyCalculator.mocks;
 
-import is2.ulpgc.MoneyCalculator.Currency;
-import is2.ulpgc.MoneyCalculator.Money;
-import is2.ulpgc.MoneyCalculator.MoneyDialog;
+import is2.ulpgc.MoneyCalculator.model.Currency;
+import is2.ulpgc.MoneyCalculator.model.Money;
+import is2.ulpgc.MoneyCalculator.view.MoneyDialog;
 
 import java.util.List;
 

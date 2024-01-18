@@ -1,9 +1,10 @@
-package is2.ulpgc.MoneyCalculator.swing;
+package is2.ulpgc.MoneyCalculator.view;
 
-import is2.ulpgc.MoneyCalculator.Currency;
-import is2.ulpgc.MoneyCalculator.CurrencyDialog;
-import is2.ulpgc.MoneyCalculator.Money;
-import is2.ulpgc.MoneyCalculator.MoneyDialog;
+import is2.ulpgc.MoneyCalculator.model.Currency;
+import is2.ulpgc.MoneyCalculator.view.CurrencyDialog;
+import is2.ulpgc.MoneyCalculator.model.Money;
+import is2.ulpgc.MoneyCalculator.view.MoneyDialog;
+import is2.ulpgc.MoneyCalculator.view.SwingCurrencyDialog;
 
 import javax.swing.*;
 import java.awt.*;
